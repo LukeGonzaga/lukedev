@@ -20,6 +20,7 @@ body{
     background-image: linear-gradient(to bottom, black, white, black);
     
     
+    
 }
 header h1{
     font-family: var(--fonthh1);
@@ -54,6 +55,7 @@ div{
     border-radius: 10px;
     margin: 50px auto;
     font-family: var(--fontdh1);
+    
 
 }
 div h1{
@@ -61,7 +63,9 @@ div h1{
 
 }
 div img{
-    max-height: 70%;
+    padding-top: 25px;
+    min-height: 40%;
+    max-height: 50%;
     display: block;
     margin: auto;
 }
