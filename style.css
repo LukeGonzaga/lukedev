@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@media only screen and (max-width: 767px) {
+    p{
+        font-size: 14px;
+    }
+}
 
 :root{
     --fonthh1: 'Monoton', cursive;
@@ -46,24 +51,29 @@ nav img.navicon{
 }
 div{
     background-color: rgba(255, 255, 255, 0.329);
-    min-width: 60vw;
-    max-width: 80vw;
+    max-width: 60vw;
     min-height: 300px;
-    max-height: 1000px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.527);
     background-color: rgba(255, 255, 255, 0.329);
     border-radius: 10px;
     margin: 50px auto;
     font-family: var(--fontdh1);
-    
-
 }
 div h1{ 
     padding-top: 10px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.301);
     font-size: 35px;
     text-align: center;
-    
+}
+div h2{
+    padding-left: 70px;
+    padding-right: 50px;
+}
+div img{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 
 }
 div img{
@@ -72,19 +82,34 @@ div img{
     display: block;
     margin: auto;
 }
+div.sobremim p{
+    padding-top: 20px;
+}
 div p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4em;
     font-weight: li;
+    padding: 10px 100px 10px 100px;
     line-height: 1.5em;
-    padding: 30px ;
     text-align: justify;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.301);
+
+
 }
 div p.breve{
     text-align: center;
     font-family: var(--fonthh1);
     padding-top: 90px;
+}
+div > p.fonte{
+    font-size: 15px;
+    text-align: right;
+    font-style: italic;
+}
+div a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 footer p{
     color: white;
