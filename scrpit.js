@@ -1,1 +1,1 @@
-alert('Você por aqui? Que prazer!')
+//alert('Você por aqui? Que prazer!')
