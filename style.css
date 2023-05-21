@@ -102,7 +102,7 @@ div p{
 div p.breve{
     text-align: center;
     font-family: var(--fonthh1);
-    padding-top: 50px;
+    padding-top: 20px;
 }
 div > p.fonte{
     font-size: 0.8em;
@@ -114,6 +114,17 @@ div a{
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+picture.cone{
+    display: inline-flex;
+    margin: auto;
+    padding: 50px;
+}
+p.picture{
+    text-align: center;
+}
+img#cone{
+    padding: 50px;
 }
 article.conhecimentos {
     padding-top: 30px;
