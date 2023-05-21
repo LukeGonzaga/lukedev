@@ -129,6 +129,10 @@ p.picture{
 img#cone{
     padding: 50px;
 }
+.cone{
+    display: flex;
+    overflow-x: auto;
+}
 article.conhecimentos {
     padding-top: 30px;
 }
