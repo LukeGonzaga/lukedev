@@ -151,6 +151,35 @@ footer img{
     width: 30px;
     margin: auto;
     display: block;
-    
+}
 
+
+
+/*scrollbar */
+body::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+body::-webkit-scrollbar-track {
+    background: grey;    
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 20px;  
+    border: 1px solid black;
+}
+.picture::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+.picture::-webkit-scrollbar-track {
+    background: grey;  
+    border-radius: 20px;
+  }
+  
+.picture::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 20px;  
+    border: 2px solid black;
 }
