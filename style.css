@@ -7,14 +7,10 @@
         font-size: 14px;
     }
 }
-
 :root{
     --fonthh1: 'Monoton', cursive;
     --fontdh1: 'Bruno Ace SC', cursive;
-
 }
-
-
 *{
     padding: 0px;
     margin: 0px;
