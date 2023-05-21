@@ -113,21 +113,22 @@ div a{
     color: black;
     font-weight: bold;
 }
-picture.cone{
+.picture{
     display: inline-flex;
     margin: auto;
     padding: 50px;
 }
 p.picture{
     text-align: center;
+    padding-bottom: 10px;
 }
 img#cone{
-    padding: 50px;
+    padding: 40px;
 }
-.cone{
+.picture{
     display: flex;
     overflow-x: auto;
-    max-width: 40vw;
+    max-width: 45vw;
 }
 article.conhecimentos {
     padding-top: 30px;
