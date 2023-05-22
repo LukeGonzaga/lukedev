@@ -137,11 +137,13 @@ footer p{
     color: white;
     text-align: center;
     margin: auto;
+    letter-spacing: 1px;
 }
 footer a {
     text-decoration: none;
     color: white;
     font-weight: bolder;
+    letter-spacing: 1px;
 }
 footer a:hover{
     color: rgb(69, 69, 69);
